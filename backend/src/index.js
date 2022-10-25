@@ -6,4 +6,6 @@ app.get('/', (req, res) => {
     return res.json({ message: "Olá Mundo" })
 })
 
-app.listen(3333)
+app.listen(3333, () => {
+    console.log("server Online");
+})
